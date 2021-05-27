@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+#sidenav{
+    position: fixed;
+    left: -260px;
+    height: 100%;
+    width: 180;
+    background-color: #8360c3;
+    transition: left 0.5s linear;
+    padding: 40px;
+}
+#sidenav ul li{
+    padding: 20px;
+    list-style: none;
+}
+#sidenav a{
+    text-decoration: none;
+    color: #fff;
+}
+#sidenav .btn{
+    position: absolute;
+    left: 255px;
+    display: block;
+    background-color: #8360c3;
+    top: 25px;
+    font-size: 30px;
+    color: #fff;
+    padding: 3px 10px;
+}
+#sidenav:hover{
+    left: 0px;
+}
+#sidenav a:hover{
+    color: #eee;
+}
+.maincontent{
+    padding: 10px 50px;
+}
+p{
+    text-align: justify;
+}
